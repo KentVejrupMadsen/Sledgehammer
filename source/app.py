@@ -31,3 +31,9 @@ class Application:
     def set_is_to_run(self, v):
         self.run = bool(v)
 
+    def get_global_prompt(self):
+        return self.global_prompt
+
+    def set_global_prompt(self, v):
+        self.global_prompt = v
+

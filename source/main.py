@@ -3,7 +3,6 @@ import app
 
 def main():
     application = app.Application()
-
     application.execute()
 
 
